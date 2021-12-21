@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Features.Clientes
+﻿namespace Features.Clientes
 {
     public interface IClienteService : IDisposable
     {

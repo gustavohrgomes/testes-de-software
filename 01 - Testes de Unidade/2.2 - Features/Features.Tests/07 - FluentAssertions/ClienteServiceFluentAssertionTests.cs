@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using System.Threading;
+﻿using System.Threading;
 using Features.Clientes;
 using FluentAssertions;
 using FluentAssertions.Extensions;

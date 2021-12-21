@@ -1,5 +1,4 @@
-﻿using System;
-using Features.Core;
+﻿using Features.Core;
 using FluentValidation;
 
 namespace Features.Clientes

@@ -3,7 +3,7 @@ using NerdStore.Core.DomainObjects;
 
 namespace NerdStore.Vendas.Domain
 {
-    public class Pedido
+    public class Pedido : Entity
     {
         private readonly List<PedidoItem> _pedidoItems;
 

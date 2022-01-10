@@ -3,7 +3,7 @@ using NerdStore.Core.DomainObjects;
 
 namespace NerdStore.Vendas.Domain
 {
-    public class Pedido : Entity
+    public class Pedido : Entity, IAggregateRoot
     {
         private readonly List<PedidoItem> _pedidoItems;
 

@@ -76,6 +76,11 @@ namespace NerdStore.Vendas.Domain
             CalcularValorPedido();
         }
 
+        public bool PedidoItemExistente(PedidoItem pedidoItem)
+        {
+            return _pedidoItems.Any(p => p.ProdutoId == pedidoItem.ProdutoId);
+        }
+
         private void CalcularValorTotalDesconto()
         {
             if (!VoucherUtilizado) return;
@@ -108,11 +113,6 @@ namespace NerdStore.Vendas.Domain
             }
 
             if (quantidadeItems > MAX_UNIDADES_ITEM) throw new DomainException($"Máximo de {MAX_UNIDADES_ITEM} unidades por produto.");
-        }
-
-        private bool PedidoItemExistente(PedidoItem pedidoItem)
-        {
-            return _pedidoItems.Any(p => p.ProdutoId == pedidoItem.ProdutoId);
         }
 
         private void ValidarPedidoItemInexistente(PedidoItem item)

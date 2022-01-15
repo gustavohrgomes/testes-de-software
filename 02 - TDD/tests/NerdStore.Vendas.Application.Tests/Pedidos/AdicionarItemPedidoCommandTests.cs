@@ -1,7 +1,7 @@
-﻿using NerdStore.Vendas.Application.Commands;
-using NerdStore.Vendas.Domain;
-using System;
+﻿using System;
 using System.Linq;
+using NerdStore.Vendas.Application.Commands;
+using NerdStore.Vendas.Domain;
 using Xunit;
 
 namespace NerdStore.Vendas.Application.Tests.Pedidos

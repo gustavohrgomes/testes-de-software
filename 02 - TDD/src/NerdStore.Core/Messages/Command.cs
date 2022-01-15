@@ -1,4 +1,5 @@
-﻿using FluentValidation.Results;
+﻿using System;
+using FluentValidation.Results;
 using MediatR;
 
 namespace NerdStore.Core.Messages
@@ -13,6 +14,9 @@ namespace NerdStore.Core.Messages
             Timestamp = DateTime.Now;
         }
 
-        public abstract bool EhValido();
+        public virtual bool EhValido()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

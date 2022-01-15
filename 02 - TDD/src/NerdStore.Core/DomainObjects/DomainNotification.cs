@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using System;
+using MediatR;
 using NerdStore.Core.Messages;
 
 namespace NerdStore.Core.DomainObjects

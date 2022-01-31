@@ -47,7 +47,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration Tests", "Integr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NerdStore.WebApp.Tests", "03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\NerdStore.WebApp.Tests.csproj", "{4785F805-7D6E-4C76-81ED-C72F976F6662}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - BDD", "04 - BDD", "{8590459B-0C4B-4CC4-BDC2-349BE224E096}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - BDD - Testes de Automação", "04 - BDD - Testes de Automação", "{8590459B-0C4B-4CC4-BDC2-349BE224E096}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NerdStore.BDD.Tests", "04 - BDD\tests\NerdStore.BDD.Tests\NerdStore.BDD.Tests.csproj", "{47E93195-FA6F-445D-816E-044EB73995C9}"
 EndProject
